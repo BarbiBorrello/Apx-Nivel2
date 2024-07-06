@@ -1,0 +1,32 @@
+.contenedor-blanco{
+background-color:white ;
+height: 100vh; /* pantalla 1*/
+display: flex;
+flex-direction: column;
+}
+
+.contenedor-azul{
+background-color:#8FACF5; ;
+height: 100vh; /* pantalla 2*/
+}
+
+.contenedor-gris{
+  background-color:#C4C4C4;
+  padding: 5%; /* 5% del ANCHO del contenedor gris*/
+}
+
+.texto {
+  font-size:3rem ; /* 16px HTML x defecto*/
+}
+.contenedor-negro{
+  background-color: black;
+  width: 25%;
+  height: 3.8rem; /*en referencia font-size: 3rem  */
+}
+
+.contenedor-texto{
+flex-grow: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+}

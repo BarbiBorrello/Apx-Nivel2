@@ -1,0 +1,38 @@
+.lista {
+  border: 1px solid;
+}
+
+.lista > li:first-child{
+  color: blueviolet;
+  border: 2px  solid ;
+  margin: 5px;
+  
+}
+
+.lista > li:only-child {
+background-color: aqua;
+}
+
+.lista>li:hover {  /*mouse......*/
+  background-color: yellow;
+  font-size: 50px;
+}
+
+.nombre-input:focus{ /*campos de un input*/
+background-color: red;
+}
+.nombre-input{
+  display: block;
+  margin: 5px;
+}
+
+/*------------HABILITAR ELEMENTOS QUE ESTAN ESCONDIDOS-----------*/
+
+.texto-largo-container .texto-largo { 
+  display: none;/*no se ve el texto largo*/
+}
+
+.texto-largo-container:hover .texto-largo { /*donde se pone el hover!!! OJO*/
+  display: initial; /*aparece el texto largo*/
+}
+

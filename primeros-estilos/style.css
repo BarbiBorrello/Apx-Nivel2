@@ -1,0 +1,13 @@
+/*Nunca mayusculas y siempre guiones medios*/
+
+h1 {
+  color: blueviolet;
+}
+
+p {
+  color: yellow;
+}
+
+.etiqueta-especial {
+  color: green;
+}

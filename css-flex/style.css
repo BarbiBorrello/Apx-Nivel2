@@ -1,0 +1,42 @@
+body{
+
+}
+
+.contenedor-cuadrados{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.cuadrado-azul{
+  width: 100px;
+  height: 100px;
+  background-color: #66c8ff;
+}
+
+.cuadrado-rojo{
+  background-color: red;
+  width:45% ;
+  height:100px ;
+
+}
+
+.contenedor-cuadrados-rojos{ /*solo margen*/
+  margin-top: 20px;
+}
+
+.contenedor-cuadrados-verticales{
+  display: flex;
+  background-color: blueviolet;
+  border: solid;
+  padding: 40px ;
+  margin: 20px; ;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.primer-cuadrado-rojo{
+  margin-bottom: 20px;
+}
+
+

@@ -1,0 +1,24 @@
+.contenedor {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr ;
+gap: 20px; /*es el ANCHO DE TODAS LAS SEPARACIONES*/ 
+
+}
+
+.contenedor-rojo{
+background-color: red;
+min-height: 30px;
+grid-row: 1 /span 2; /*comienza en al fila 1 y se extiende hasta las fila dos*/
+}
+.contenedor-gris {
+background-color: gray;
+  min-height: 30px;
+
+}
+
+.contenedor-azul{
+background-color: blue;
+  min-height: 30px;
+  grid-column: 1 /span 3; /*comienza en al columna 1 y se extiende hasta la 3*/
+}

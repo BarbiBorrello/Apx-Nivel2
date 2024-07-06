@@ -1,0 +1,43 @@
+
+/*clase: CONTENEDOR--------------------------------------------*/
+.contenedor {
+  max-width: 500px; /*cuando al pantalla llega a 500 px, no se extiende mas, se clava en esa medida*/
+  margin: 0 auto; /*centrado*/
+}
+
+@media (min-width: 900px) {
+
+  /* a partir de los 900 px...*/
+  .contenedor {
+    max-width: 1000px;
+    /*no se expande eternamente*/
+  }
+
+/*clase: ARTICULO------------------------------------------------*/
+.articulo {
+  border: solid aqua 5px; /*dotted: borde con puntitos*/
+  margin: 10px;
+}
+
+@media(min-width: 900px){
+  .articulo {
+      /*el articulo..*/
+      background-color: burlywood;
+      /*el fondo cambia de color */
+      margin: 0;
+    }
+
+}
+
+/*clase: CONTENEDOR-DE-TEXTO-----------------------------------------------*/
+.contenedor-de-textos{
+
+}
+@media (min-width:900px) {
+.contenedor-de-textos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    gap: 30px;
+  }
+}
+}

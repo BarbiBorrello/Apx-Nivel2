@@ -1,0 +1,14 @@
+.lista-numeros {
+  font-size: 30px;
+  background-color: burlywood;
+}
+
+.lista-numeros > li{
+  border-bottom: 1px solid aqua ;
+}
+.lista-numeros.lista-numeros-variante > li{ /*SIN ESPACIOS ENTRE CLASES!*/
+  border: solid 4px;
+  font-size: 20px;
+  border-bottom: 5px solid gray;
+  
+}

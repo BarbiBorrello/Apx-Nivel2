@@ -1,0 +1,17 @@
+.header{
+  display: grid;
+  gap: 45px;
+  grid-template-columns: 150px 1fr 150px; /*150px logo y boton -- 1fr son los links */
+  margin: 0 45px; /*0 arriba-abajo y 45 en los costados*/
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.menu > a{ /*todas las etiquetas a dentro del menu*/
+  margin: 0 10px;
+}

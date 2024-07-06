@@ -1,0 +1,10 @@
+*{
+  box-sizing: border-box;
+  border: 20px solid greenyellow;
+  
+}
+
+body {
+  border: 1px solid red;
+  margin: 0; /*me ocupa todo el ancho*/
+}

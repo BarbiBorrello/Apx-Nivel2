@@ -1,0 +1,18 @@
+ body>div.texto{
+
+ }
+ 
+ body >.azul{
+  color: blue;
+  font-family: cursive;
+  font-size: x-large;
+ }
+ 
+ body > div.texto { /*dentro del body todas las etiquetas div que son hijos directos y que tengan la clase texto*/
+  font-size: 200px;
+}
+
+/*gana porque esta declarad despues, aunque este en otra hoja de estilo*/
+.texto {
+  font-size: 100px;
+}

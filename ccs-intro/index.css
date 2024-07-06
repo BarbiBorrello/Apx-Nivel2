@@ -1,0 +1,26 @@
+body {
+  background-color: aqua;
+}
+
+p{
+  font-size: xx-large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: red;
+  background-color: blueviolet;
+}
+
+ h1{
+  color: black;
+ }
+
+ h2{
+  background-color: chartreuse;
+ font-style: italic;
+ }
+
+ h3{
+  font-style: oblique;
+  background-color: crimson;
+  font-size: xx-large;
+  background-color: yellow;
+ }

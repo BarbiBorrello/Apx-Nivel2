@@ -1,0 +1,16 @@
+
+.menu-container{
+  width: 960px; /*ANCHO*/
+  margin: 0 auto; /*centrar en eje horizontal*/
+  border: solid;
+  padding: 28px 40px;
+  display: flex; /*se ponen uno al lado del otro*/
+  justify-content: space-between;
+}
+
+.menu-nav{
+  display: flex;
+  justify-content: space-between;
+  width: 300px; /*separacion entre links*/
+  align-items: center; /*alineados al centro*/
+}

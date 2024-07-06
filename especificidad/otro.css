@@ -1,0 +1,15 @@
+
+/*se reescriben las reglas originales de styles.css*/
+
+.texto {
+  font-size: 20px;
+  color: aqua;
+}
+
+.contenedor{ /*CLASE ORIGINAL*/
+  border: solid 10px;
+}
+
+.contenedor-azul { /* VARIANTE DE CLASE ORIGINAL*/
+  border: solid 10px blue;
+}

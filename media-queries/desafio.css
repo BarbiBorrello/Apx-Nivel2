@@ -1,0 +1,83 @@
+body {
+  margin: 0; /*quitar margen por defecto*/
+}
+
+.header {
+  background-color:#C4C4C4;
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 24px;
+}
+
+.rectangulo-fuxia{
+  width: 75px;
+  height: 17px;
+  background-color:#EA53BF;
+}
+
+@media(min-width: 769px){
+  .rectangulo-fuxia{
+  width: 119px;
+  height: 43px;
+  }
+
+}
+
+.rectangulo-celeste {
+  width: 75px;
+  height: 17px;
+  background-color:#6EB9E3;;
+}
+
+@media(min-width: 769px) {
+.rectangulo-celeste{
+  display: none;
+}
+}
+
+.menu{
+  /*display:grid (para las 4 columnas, se saben cuantas son, luego cambia a....)*/
+  display:none; /*para ocultarlas = ELEMENTOS QUE NO SE MUESTRAN*/
+  grid-template-columns:auto auto auto auto;
+  gap: 20px ;
+}
+
+@media(min-width: 769px) {
+.menu{
+  display: grid;
+}
+
+}
+
+.boton {
+  background-color:#E35C5C;
+  width: 75px;
+  height: 27px;
+  border: solid black 5px;
+}
+
+.contenedor-rectangulos-verdes{
+  padding: 51px 24px;
+  width: 326px; /*rectangulo-verde*/
+  margin: 0 auto; /*centrado*/
+}
+
+@media(min-width: 769px) {
+  .contenedor-rectangulos-verdes{
+    display: grid;
+    grid-template-columns: 251px 251px 251px; /*ancho de las columnas*/
+    gap: 30px;
+    width: auto; /*ANCHO del contenedor*/
+    justify-content: center; 
+    height: 600px; /*????*/
+    align-items: center;
+    
+  }
+
+}
+
+.rectangulo-verde{
+  height: 147px ;
+  background-color:#51A654;
+  margin-bottom: 29px;
+}

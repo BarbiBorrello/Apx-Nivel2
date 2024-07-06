@@ -1,0 +1,36 @@
+body {
+
+  background-color: #FFDB5B;
+  padding: 0px  75px;
+
+}
+
+.titulo{
+  font-family: Roboto;
+    font-size: 56px;
+
+}
+
+.parrafo-principal{
+  background-color: #FF5050;
+  padding: 54px 63px;
+}
+
+.parrafo-secundario{
+  background-color:#C6FFF5;
+  border: solid 5px;
+  margin-left: 220px ;
+  padding: 27px 42px;
+}
+
+.imagen-perro{
+  margin-top: 51px;
+    vertical-align: middle;
+
+}
+
+.titulo-secundario {
+  display: inline;
+  size: 45px;
+  vertical-align: middle;
+}
