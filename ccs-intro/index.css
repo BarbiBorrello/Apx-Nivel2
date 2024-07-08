@@ -9,7 +9,7 @@ p{
   background-color: blueviolet;
 }
 
- h1{
+ h1{  /*este es un titulo*/
   color: black;
  }
 
@@ -24,3 +24,4 @@ p{
   font-size: xx-large;
   background-color: yellow;
  }
+
