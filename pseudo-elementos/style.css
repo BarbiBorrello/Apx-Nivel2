@@ -1,0 +1,28 @@
+.parrafo::first-line {
+  background-color: aqua;
+}
+
+.parrafo:first-child::first-line {
+  background-color:brown;
+  font-size: 50px;
+  color: white;
+  
+}
+
+.parrafo:first-child::before {
+  content: "🚀"; /*COMO SE PONE EMOJI????*/
+  width: 40px;
+  height: 40px;
+  border: 2px solid;
+  display: block;
+  background-color: blueviolet;
+}
+
+.parrafo::after {
+  content: "";
+    width: 40px;
+    height: 40px;
+    border: 2px solid;
+    background-color: red;
+    display: block;
+}
