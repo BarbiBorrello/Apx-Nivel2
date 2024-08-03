@@ -1,0 +1,32 @@
+.social-media {
+  display: flex;
+  /* Mantener flexbox */
+  flex-direction: column;
+  /* Cambiar a columna para alineación vertical */
+  gap: 10px;
+  /* Espacio entre los elementos */
+  align-items: flex-start;
+  /* Alinea los elementos al inicio */
+}
+
+.social-item {
+  display: flex;
+  align-items: center;
+  /* Alinea logo y nombre */
+}
+
+.social-logo {
+  width: 30px;
+  /* Ajusta el tamaño del logo */
+  height: 30px;
+  /* Ajusta el tamaño del logo */
+  margin-right: 10px;
+  /* Espacio entre el logo y el nombre */
+}
+
+.social-name {
+  font-family: var(--font-main);
+  /* Usa la fuente que prefieras */
+  font-size: 16px;
+  /* Ajusta el tamaño de la fuente */
+}

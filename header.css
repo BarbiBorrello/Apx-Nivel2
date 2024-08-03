@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: aqua;
+}
+
+.header { 
+  display: flex;
+  /* Usamos flexbox para alinear elementos */
+  align-items: center;
+  justify-content: space-between;
+  /* Alinea verticalmente los elementos */
+}
+
+.logo {
+  width: 100px;
+  /* Ajusta el ancho del logo según sea necesario */
+}
+
+.lista {
+  list-style-type: none;
+  /* Elimina los puntos de la lista */
+  margin: 0;
+  /* Elimina el margen */
+  padding: 0;
+  /* Elimina el padding */
+  width: 100px;
+  /* Asegúrate de que la lista tenga el mismo ancho que el logo */
+}
+

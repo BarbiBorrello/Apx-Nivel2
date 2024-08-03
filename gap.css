@@ -1,0 +1,17 @@
+/*Eje Horizontal (por defecto)*/
+
+.container {
+  display: flex;
+  gap: 20px;
+  /* Espacio de 20px entre los elementos en horizontal */
+}
+
+/*Eje Vertical*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  /* Cambia la dirección a vertical */
+  gap: 20px;
+  /* Espacio de 20px entre los elementos en vertical */
+}
